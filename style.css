@@ -1,8 +1,43 @@
 :root {
-  font-size: 2vh;
+  font-size: 62.5%;
   font-family: 'Titillium Web', sans-serif;
 }
 
 body {
   margin: 0;
+  font-size: 1.6rem;
+  height: 100vh;
+} 
+
+#outer-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  height: 100%;
+}
+
+#nav {
+  background-color: #facc15;
+  grid-row: 1 / -1;
+  padding: 2rem;
+}
+
+#id {
+  background-color: #fefce8;
+}
+
+#main-content {
+  background-color: #a8a29e;
+}
+
+#nav-header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  font-size: 3rem;
+  gap: 1rem;
+}
+
+#nav-header>img {
+  height: 50px;
+  justify-self: end;
 }
