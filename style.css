@@ -78,7 +78,8 @@ a {
   gap: 5%;
 }
 
-#left-top {
+#left-top,
+#left-bottom {
   display: flex;
   gap: 15px;
   flex: 1;
@@ -102,4 +103,10 @@ input {
   height: 25px;
 }
 
+#bottom-header {
+  padding: 0 1.5rem;
+}
 
+#greeting{
+  align-self: center;
+}
