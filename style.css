@@ -30,7 +30,7 @@ body {
 }
 
 #main-content {
-  background-color: #a8a29e;
+  background-color: #cbd5e1;
 }
 
 #nav-header {
@@ -54,7 +54,7 @@ a {
   color: black;
 }
 
-li>a>img {
+#nav-menu img {
   height: 30px;
 }
 
@@ -69,3 +69,37 @@ li>a>img {
 #nav-menu>ul {
   padding: 10px;
 }
+
+#top-header {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+}
+
+#left-top {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+}
+
+#right-top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+input {
+  background-color: #cbd5e1;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  height: 20px;
+  flex: 1;
+}
+
+#header img {
+  height: 25px;
+}
+
+
