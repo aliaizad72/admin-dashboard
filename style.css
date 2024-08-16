@@ -107,21 +107,18 @@ input {
   padding: 0 1.5rem;
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 1.5rem;
+  padding-bottom: 0.6rem;
   gap: 15px;
-}
-
-#greeting{
-  align-self: center;
+  align-items: center;
 }
 
 button {
   background-color: #facc15;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  border-radius: 10px;
+  border-radius: 14px;
   border: transparent;
-  padding: 1.5rem;
+  padding: 0.5rem 2rem;
   font-size: 1.5rem;
 }
 
@@ -129,4 +126,9 @@ button {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+#header {
+  display: grid;
+  grid-template-rows: auto auto;
 }
